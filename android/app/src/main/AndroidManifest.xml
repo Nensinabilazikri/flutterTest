@@ -3,6 +3,7 @@
    <application
         android:label="Nensi"
         android:icon="@mipmap/ic_launcher">
+        android:requestLegacyExternalStorage ="true">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -39,4 +40,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+    <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyBvN1qQIbs4eEniGOq6VCDAi1jp9-IQzMQ"/>
 </manifest>
